@@ -1,0 +1,143 @@
+postbot api docs
+
+This API endpoint is a POST request to retrieve a question. 
+The request is sent to https://zeewebvalley.com/quizup/super-admin/api/Controll/get_question/. 
+The request payload is of form-data type and does not contain any specific parameters.
+Response
+The response of this request is a JSON schema representing the structure 
+and data types of the response object. 
+The schema provides a clear understanding of the expected response format.
+Example response schema:
+
+
+JSON
+
+
+
+
+
+
+
+
+{
+  "type": "object",
+  "properties": {
+    "answer": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "option": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "qa_id": {
+                  "type": "string"
+                },
+                "quiz_id": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": "string"
+                },
+                "correct": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "status": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "quiz_id": {
+            "type": "string"
+          },
+          "cat_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string"
+          },
+          "correct_answer": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "added_date": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "attend_id": {
+      "type": "integer"
+    }
+  }
+}
+
+
+
+
+Response
+The response of this request is a JSON schema. The schema includes the structure and data types of the response object, providing a clear understanding of the expected response format.
+Example response schema:
+
+
+JSON
+
+
+
+
+
+
+
+
+{
+  "type": "object",
+  "properties": {
+    "question": {
+      "type": "string"
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "correct_answer": {
+      "type": "string"
+    }
+  }
+}
+
+
+
+Body
+form-data
+level
+Intermediate
+
+cat_id
+7
+
+user_id
+59

@@ -1,0 +1,375 @@
+https://zeewebvalley.com/quizup/super-admin/api/Controll/get_question/  
+
+level:Beginners
+cat_id:7
+user_id:59 
+
+
+{
+    "answer": [
+        {
+            "option": [
+                {
+                    "qa_id": "37",
+                    "quiz_id": "7",
+                    "answer": "Cell wall",
+                    "correct": "0"
+                },
+                {
+                    "qa_id": "38",
+                    "quiz_id": "7",
+                    "answer": "Chloroplast",
+                    "correct": "1"
+                },
+                {
+                    "qa_id": "39",
+                    "quiz_id": "7",
+                    "answer": "Mitochondria",
+                    "correct": "2"
+                }
+            ]
+        },
+        {
+            "option": [
+                {
+                    "qa_id": "40",
+                    "quiz_id": "8",
+                    "answer": "Leaves",
+                    "correct": "0"
+                },
+                {
+                    "qa_id": "41",
+                    "quiz_id": "8",
+                    "answer": "Stem",
+                    "correct": "1"
+                },
+                {
+                    "qa_id": "42",
+                    "quiz_id": "8",
+                    "answer": "Roots",
+                    "correct": "2"
+                },
+                {
+                    "qa_id": "43",
+                    "quiz_id": "8",
+                    "answer": "Flowers",
+                    "correct": "3"
+                }
+            ]
+        },
+        {
+            "option": [
+                {
+                    "qa_id": "44",
+                    "quiz_id": "9",
+                    "answer": " To produce food through photosynthesis",
+                    "correct": "0"
+                },
+                {
+                    "qa_id": "45",
+                    "quiz_id": "9",
+                    "answer": "To support the plant",
+                    "correct": "1"
+                },
+                {
+                    "qa_id": "46",
+                    "quiz_id": "9",
+                    "answer": "To absorb water",
+                    "correct": "2"
+                }
+            ]
+        },
+        {
+            "option": [
+                {
+                    "qa_id": "59",
+                    "quiz_id": "13",
+                    "answer": "ewew",
+                    "correct": "0"
+                },
+                {
+                    "qa_id": "60",
+                    "quiz_id": "13",
+                    "answer": "wwww",
+                    "correct": "0"
+                },
+                {
+                    "qa_id": "61",
+                    "quiz_id": "13",
+                    "answer": "ddddd",
+                    "correct": "0"
+                }
+            ]
+        },
+        {
+            "option": [
+                {
+                    "qa_id": "62",
+                    "quiz_id": "14",
+                    "answer": "Shark",
+                    "correct": "1"
+                },
+                {
+                    "qa_id": "63",
+                    "quiz_id": "14",
+                    "answer": "Eagle",
+                    "correct": "1"
+                },
+                {
+                    "qa_id": "64",
+                    "quiz_id": "14",
+                    "answer": "Frog",
+                    "correct": "1"
+                },
+                {
+                    "qa_id": "65",
+                    "quiz_id": "14",
+                    "answer": "Lion",
+                    "correct": "1"
+                }
+            ]
+        },
+        {
+            "option": [
+                {
+                    "qa_id": "78",
+                    "quiz_id": "15",
+                    "answer": "Spider",
+                    "correct": "0"
+                },
+                {
+                    "qa_id": "79",
+                    "quiz_id": "15",
+                    "answer": "Worm",
+                    "correct": "0"
+                },
+                {
+                    "qa_id": "80",
+                    "quiz_id": "15",
+                    "answer": "Fish",
+                    "correct": "0"
+                },
+                {
+                    "qa_id": "81",
+                    "quiz_id": "15",
+                    "answer": "Jellyfish",
+                    "correct": "1"
+                }
+            ]
+        }
+    ],
+    "status": "200",
+    "message": "Question found !",
+    "data": [
+        {
+            "quiz_id": "7",
+            "cat_id": "7",
+            "title": "Which of the following is NOT a part of a plant cell?",
+            "level": "Beginners",
+            "correct_answer": "1",
+            "image": "",
+            "status": "1",
+            "added_date": "2024-09-09 11:44:15"
+        },
+        {
+            "quiz_id": "8",
+            "cat_id": "7",
+            "title": "Which part of the plant absorbs water and nutrients from the soil?",
+            "level": "Beginners",
+            "correct_answer": "1",
+            "image": "",
+            "status": "1",
+            "added_date": "2024-09-09 11:49:04"
+        },
+        {
+            "quiz_id": "9",
+            "cat_id": "7",
+            "title": "What is the main function of the leaves in a plant?",
+            "level": "Beginners",
+            "correct_answer": "8",
+            "image": "",
+            "status": "1",
+            "added_date": "2024-09-09 11:50:30"
+        },
+        {
+            "quiz_id": "13",
+            "cat_id": "7",
+            "title": "Which of these animals is a mammal?",
+            "level": "Beginners",
+            "correct_answer": "wwww",
+            "image": "",
+            "status": "1",
+            "added_date": "2024-09-09 12:10:49"
+        },
+        {
+            "quiz_id": "14",
+            "cat_id": "7",
+            "title": "Which of these animals is a mammal?",
+            "level": "Beginners",
+            "correct_answer": "Lion",
+            "image": "",
+            "status": "1",
+            "added_date": "2024-09-09 12:12:21"
+        },
+        {
+            "quiz_id": "15",
+            "cat_id": "7",
+            "title": "Which of the following is an example of a vertebrate?",
+            "level": "Beginners",
+            "correct_answer": "Jellyfish",
+            "image": "",
+            "status": "1",
+            "added_date": "2024-09-09 12:15:09"
+        }
+    ],
+    "attend_id": 1
+}
+
+give me detail documentation each question carry how many
+option  for per oprtion what are option using this api
+
+
+------------------------------******************------------------------------
+data: A list of questions, where each object represents one quiz question 
+with metadata (title, correct answer, added date, etc.).
+
+quiz_id: Unique identifier for the quiz.
+cat_id: Category ID to which the question belongs.
+title: The question text.
+correct_answer: Specifies the correct answer option.
+status: Represents the status of the question (active/inactive).
+added_date: Date the question was added.
+attend_id: An identifier representing the user's quiz attempt.
+
+Breakdown of Each Question and Options
+Example Question 1
+Question: "Which of the following is NOT a part of a plant cell?"
+Level: Beginners
+Correct Answer: Chloroplast (based on correct_answer: 1 which matches 
+the correct option's value).
+Options:
+Option 1: Cell wall (Incorrect)
+Option 2: Chloroplast (Correct)
+Option 3: Mitochondria (Incorrect)
+Example Question 2
+Question: "Which part of the plant absorbs water and nutrients from the soil?"
+Level: Beginners
+Correct Answer: Stem
+Options:
+Option 1: Leaves (Incorrect)
+Option 2: Stem (Correct)
+Option 3: Roots (Incorrect)
+Option 4: Flowers (Incorrect)
+Example Question 3
+Question: "What is the main function of the leaves in a plant?"
+Level: Beginners
+Correct Answer: To produce food through photosynthesis
+Options:
+Option 1: To produce food through photosynthesis (Correct)
+Option 2: To support the plant (Incorrect)
+Option 3: To absorb water (Incorrect)
+Example Question 4
+Question: "Which of these animals is a mammal?"
+Level: Beginners
+Correct Answer: Incorrect answer data as per the response (correct_answer: 
+wwww might be an error in the API response).
+Options:
+Option 1: ewew (Incorrect)
+Option 2: wwww (Incorrect)
+Option 3: ddddd (Incorrect)
+Example Question 5
+Question: "Which of these animals is a mammal?"
+Level: Beginners
+Correct Answer: Lion
+Options:
+Option 1: Shark (Incorrect)
+Option 2: Eagle (Incorrect)
+Option 3: Frog (Incorrect)
+Option 4: Lion (Correct)
+Example Question 6
+Question: "Which of the following is an example of a vertebrate?"
+Level: Beginners
+Correct Answer: Jellyfish
+Options:
+Option 1: Spider (Incorrect)
+Option 2: Worm (Incorrect)
+Option 3: Fish (Incorrect)
+Option 4: Jellyfish (Correct)
+General Structure
+Each question follows the same structure, and the number 
+of options may vary between questions.
+
+API Data Structure for Each Question
+Quiz Question Object:
+
+quiz_id: Unique identifier for the quiz.
+cat_id: Category ID.
+title: The question text.
+level: The difficulty level of the question.
+correct_answer: The index or identifier for the correct answer option.
+image: URL or path for any associated image (if available).
+status: Indicates whether the question is active.
+added_date: The date when the question was added.
+
+according intregate api in react native 
+
+
+
+
+------------------------------******************------------------------------
+------------------------------******************------------------------------
+according to this option name must appear below each question
+
+Example Question 1
+Question: "Which of the following is NOT a part of a plant cell?"
+Level: Beginners
+Correct Answer: Chloroplast (based on correct_answer:
+ 1 which matches the correct option's value).
+Options:
+Option 1: Cell wall (Incorrect)
+Option 2: Chloroplast (Correct)
+Option 3: Mitochondria (Incorrect)
+Example Question 2
+Question: "Which part of the plant absorbs water and nutrients from the soil?"
+Level: Beginners
+Correct Answer: Stem
+Options:
+Option 1: Leaves (Incorrect)
+Option 2: Stem (Correct)
+Option 3: Roots (Incorrect)
+Option 4: Flowers (Incorrect)
+Example Question 3
+Question: "What is the main function of the leaves in a plant?"
+Level: Beginners
+Correct Answer: To produce food through photosynthesis
+Options:
+Option 1: To produce food through photosynthesis (Correct)
+Option 2: To support the plant (Incorrect)
+Option 3: To absorb water (Incorrect)
+Example Question 4
+Question: "Which of these animals is a mammal?"
+Level: Beginners
+Correct Answer: Incorrect answer data as per the response 
+(correct_answer: wwww might be an error in the API response).
+Options:
+Option 1: ewew (Incorrect)
+Option 2: wwww (Incorrect)
+Option 3: ddddd (Incorrect)
+Example Question 5
+Question: "Which of these animals is a mammal?"
+Level: Beginners
+Correct Answer: Lion
+Options:
+Option 1: Shark (Incorrect)
+Option 2: Eagle (Incorrect)
+Option 3: Frog (Incorrect)
+Option 4: Lion (Correct)
+Example Question 6
+Question: "Which of the following is an example of a vertebrate?"
+Level: Beginners
+Correct Answer: Jellyfish
+Options:
+Option 1: Spider (Incorrect)
+Option 2: Worm (Incorrect)
+Option 3: Fish (Incorrect)
+Option 4: Jellyfish (Correct)
